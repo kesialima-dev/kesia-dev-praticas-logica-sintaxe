@@ -1,0 +1,18 @@
+#Perguntar o nome do usuário
+
+nome_usuario = input("Qual o seu nome? ")
+
+#Pegar a preferencia D ou N e transformar em maiuscula
+
+escolha = input(f"Olá {nome_usuario}, você prefere bom dia (D) ou boa noite (N)? ").upper()
+
+if escolha == "D":
+    print(f"Bom dia, {nome_usuario}!")
+elif escolha == "N":
+    print(f"Boa noite, {nome_usuario}!")
+else:
+    print("opção inválida")
+    
+
+
+
